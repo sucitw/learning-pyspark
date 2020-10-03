@@ -1,12 +1,12 @@
-# learning-pyspark
+# Learning Pyspark
 Notes and materials to learn Pyspark
 
 
-# Environment setup
+## Environment Setup
 
 Single node and cluster (multiple node)
 
-### Quick way to build a pyspark env 
+### Quick Way to Build a Pyspark Env
 
 Please replace **/Users/shuhsi/github** with your own folder.
 ```
@@ -18,10 +18,10 @@ docker run -it --rm -p 8888:8888 -v /Users/shuhsi/github:/home/jovyan/work jupyt
 
 
 
-# Hello-World in Pyspark
-Attach the container
+## Hello-World in Spark-Submit Command
+Attach the container with your {CONTAINER ID}
 ```
-& docker exec -it {CONTAINER ID} /bin/bash
+$ docker exec -it {CONTAINER ID} /bin/bash
 ```
 Run the hello-world.py with spark-submit at the project root folder
 ```
