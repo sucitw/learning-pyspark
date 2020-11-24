@@ -1,4 +1,5 @@
 import pyspark
+
 sc = pyspark.SparkContext('local[*]')
 
 txt = sc.textFile('file:////usr/local/spark/README.md')
