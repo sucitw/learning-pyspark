@@ -23,7 +23,9 @@ Attach the container with your {CONTAINER ID}
 ```
 $ docker exec -it {CONTAINER ID} /bin/bash
 ```
-Run the hello-world.py with spark-submit at the project root folder
+Run examples with spark-submit at the repository root folder  
+Example:
 ```
-$ /usr/local/spark/bin/spark-submit ./hello-world/hello-world.py
+# Run Pi
+$ /usr/local/spark/bin/spark-submit ./examples/pi.py
 ```
