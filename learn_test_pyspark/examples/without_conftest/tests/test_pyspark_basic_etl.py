@@ -1,4 +1,4 @@
-from main_function import filter_spark_data_frame
+from src.unittest.etl_function import filter_spark_data_frame
 from pyspark import SparkContext
 from pyspark.sql import SQLContext
 import pandas as pd
